@@ -6,7 +6,7 @@ open_Link='jhoelsoft.net/content';
 #Database Details
 dbhost='139.162.4.104';
 dbuser='corpovpn_corpo';
-dbpass='corpovpn_corpo';
+dbpass='corpovpn_corpo2';
 dbname='corpovpn_corpo';
 dbport='3306';
 dbport='3306';
