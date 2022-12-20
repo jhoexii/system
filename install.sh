@@ -2,10 +2,10 @@
 ln -fs /usr/share/zoneinfo/Asia/Manila /etc/localtime
 #change this according to your database details
 #Database Details
-dbhost='139.162.4.104';
-dbuser='corpovpn_corpo';
-dbpass='corpovpn_corpo2';
-dbname='corpovpn_corpo';
+dbhost='139.162.20.240';
+dbuser='vpnnijho_corpo';
+dbpass='vpnnijho_corpo';
+dbname='vpnnijho_corpo';
 dbport='3306';
 RED='\033[01;31m';
 RESET='\033[0m';
@@ -293,10 +293,10 @@ EOF
 /bin/cat <<"EOM" >/etc/issuer
 #!/bin/bash
 ##Dababase Server
-HOST1='139.162.4.104'
-USER1='corpovpn_vnj'
-PASS1='corpovpn_vnj'
-DB1='corpovpn_vnj'
+HOST1='139.162.20.240'
+USER1='vpnnijho_vnj'
+PASS1='vpnnijho_vnj'
+DB1='vpnnijho_vnj'
 EOM
 chmod +x /etc/issuer
 cat << EOF > /etc/openvpn/script/config.sh
